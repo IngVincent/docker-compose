@@ -16,3 +16,4 @@ time="2023-08-01T18:15:54Z" level=info msg="Starting Gitaly, version 16.2.1"
 {"address":"/var/opt/gitlab/gitaly/run/gitaly-286/sock.d/intern","level":"info","msg":"listening at unix address","time":"2023-08-01T18:16:00.130Z"}
 {"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2023-08-01T18:16:00.133Z"}
 {"level":"info","msg":"maintenance: daily scheduled","pid":286,"scheduled":"2023-08-02T12:00:00Z","time":"2023-08-01T18:16:00.133Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-08-01T19:16:00.050Z","time_ms":0}
