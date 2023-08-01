@@ -1,0 +1,16 @@
+---
+version: "2.1"
+services:
+  librespeed:
+    image: lscr.io/linuxserver/librespeed
+    container_name: librespeed
+    environment:
+      - PUID=1000  # change this to your user id
+      - PGID=1000  # change this to your group id
+      - TZ=America/Chicago # change this to your timezone
+      - PASSWORD=PASSWORD
+    volumes:
+      - /home/vinz/docker/librespeed/config:/config
+    ports:
+      - 8190:80
+    restart: unless-stopped

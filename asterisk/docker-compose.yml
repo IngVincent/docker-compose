@@ -1,0 +1,18 @@
+---
+version: '3'
+services:
+  asterisk:
+    image: "christoofar/asterisk"
+    container_name: "asterisk"
+
+    ports:
+      - "5060:5060"
+      - "4569:4569"
+    expose:
+      - "5060"
+      - "4569"
+    volumes:
+      - asterisk_storage:/etc/asterisk
+volumes:
+    asterisk_storage:
+      external: false

@@ -1,0 +1,53 @@
+127.0.0.1 - - [01/Aug/2023:00:16:10 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+172.24.0.1 - - [01/Aug/2023:00:16:52 +0000] "POST /users/sign_in HTTP/1.1" 302 86 "http://0.0.0.0:8085/users/sign_in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:16:52 +0000] "GET / HTTP/1.1" 200 8743 "http://0.0.0.0:8085/users/sign_in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" 3.18
+172.24.0.1 - - [01/Aug/2023:00:16:53 +0000] "GET /dashboard/projects.atom?feed_token=glft-bcc629375af45331908b2dccdcc6e3b4b9f0460abf52699e333f3694962b7c6c-1 HTTP/1.1" 401 49 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+127.0.0.1 - - [01/Aug/2023:00:17:10 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:18:11 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:19:11 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+172.24.0.1 - - [01/Aug/2023:00:19:12 +0000] "GET / HTTP/1.1" 200 8749 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" 3.18
+172.24.0.1 - - [01/Aug/2023:00:19:12 +0000] "GET /dashboard/projects.atom?feed_token=glft-bcc629375af45331908b2dccdcc6e3b4b9f0460abf52699e333f3694962b7c6c-1 HTTP/1.1" 401 49 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:19:13 +0000] "GET /-/manifest.json HTTP/1.1" 304 0 "http://localhost:8085/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:19:52 +0000] "GET /-/manifest.json HTTP/1.1" 304 0 "http://localhost:8085/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:19:52 +0000] "GET /dashboard/projects.atom?feed_token=glft-bcc629375af45331908b2dccdcc6e3b4b9f0460abf52699e333f3694962b7c6c-1 HTTP/1.1" 401 49 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+127.0.0.1 - - [01/Aug/2023:00:20:11 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:21:11 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:22:12 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+172.24.0.1 - - [01/Aug/2023:00:22:19 +0000] "GET / HTTP/1.1" 302 98 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:22:19 +0000] "GET /users/sign_in HTTP/1.1" 200 4247 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" 2.40
+172.24.0.1 - - [01/Aug/2023:00:22:19 +0000] "GET /assets/application-7dc3e992d5cc9567299c4981b2de6be6a12ae7c78bb9535d5485b0239c3b3f14.css HTTP/1.1" 200 110088 "http://gitlab.vinz/users/sign_in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:22:19 +0000] "GET /assets/webpack/main.8386cb7b.chunk.js HTTP/1.1" 200 309908 "http://gitlab.vinz/users/sign_in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+172.24.0.1 - - [01/Aug/2023:00:22:19 +0000] "GET /assets/gitlab-sans/GitLabSans-1e0a5107ea3bbd4be93e8ad2c503467e43166cd37e4293570b490e0812ede98b.woff2 HTTP/1.1" 200 324504 "http://gitlab.vinz/assets/fonts-171e1863d044918ea3bbaacf2a559ccaac603904aa851c3add5b714fa7066468.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" -
+127.0.0.1 - - [01/Aug/2023:00:23:12 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:24:12 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:25:12 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:26:13 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:27:13 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:28:13 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:00:29:13 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:16:31 +0000] "GET /help HTTP/1.1" 502 3044 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:17:32 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:18:33 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:19:34 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:20:34 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:21:34 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:22:34 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:23:35 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:24:35 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:25:36 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:26:36 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:27:37 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:28:37 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:29:37 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:30:37 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:31:38 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:32:38 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:33:38 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:34:38 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:35:39 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:36:39 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:37:39 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:38:39 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:39:40 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:40:40 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -
+127.0.0.1 - - [01/Aug/2023:18:41:40 +0000] "GET /help HTTP/1.1" 200 36690 "" "curl/8.0.1-DEV" -

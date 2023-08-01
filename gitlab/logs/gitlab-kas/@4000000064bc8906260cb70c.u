@@ -1,0 +1,5 @@
+2023-07-22_21:39:55.36480 {"level":"info","time":"2023-07-22T21:39:55.364Z","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}
+2023-07-22_21:39:55.36527 {"level":"info","time":"2023-07-22T21:39:55.365Z","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2023-07-22_21:39:55.36597 {"level":"info","time":"2023-07-22T21:39:55.365Z","msg":"Agentk API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}
+2023-07-22_21:39:55.36624 {"level":"info","time":"2023-07-22T21:39:55.366Z","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2023-07-22_21:39:55.36667 {"level":"info","time":"2023-07-22T21:39:55.366Z","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}

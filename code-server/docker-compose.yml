@@ -1,0 +1,23 @@
+---
+version: "2.1"
+services:
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    container_name: code-server
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - PASSWORD=Snake_Eater#92
+      - HASHED_PASSWORD= #optional
+      - SUDO_PASSWORD=Snake_Eater#92 #optional
+      - SUDO_PASSWORD_HASH= #optional
+      - PROXY_DOMAIN=code-server.my.domain #optional
+      - DEFAULT_WORKSPACE=/config/workspace #optional
+    volumes:
+      - /home/vinz/Documentos/codigo/config:/config
+    ports:
+      - 8447:8443
+    expose:
+      - 8447
+    restart: unless-stopped

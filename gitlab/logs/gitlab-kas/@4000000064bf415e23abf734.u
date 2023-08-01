@@ -1,0 +1,6 @@
+2023-07-25_03:20:45.67267 Program aborted: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused
+2023-07-25_03:20:46.77268 {"level":"info","time":"2023-07-25T03:20:46.772Z","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}
+2023-07-25_03:20:46.77283 {"level":"info","time":"2023-07-25T03:20:46.772Z","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2023-07-25_03:20:46.77285 {"level":"info","time":"2023-07-25T03:20:46.772Z","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2023-07-25_03:20:46.77299 {"level":"info","time":"2023-07-25T03:20:46.772Z","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}
+2023-07-25_03:20:46.77305 {"level":"info","time":"2023-07-25T03:20:46.773Z","msg":"Agentk API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}

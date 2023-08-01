@@ -1,0 +1,62 @@
+# Logfile created on 2023-08-01 18:15:41 +0000 by logger.rb/v1.4.3
+[2023-08-01T18:15:41+00:00] INFO: Started Cinc Zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded (One version per cookbook)
+[2023-08-01T18:15:41+00:00] INFO: *** Cinc Client 17.10.0 ***
+[2023-08-01T18:15:41+00:00] INFO: Platform: x86_64-linux
+[2023-08-01T18:15:41+00:00] INFO: Cinc-client pid: 32
+[2023-08-01T18:15:42+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2023-08-01T18:15:42+00:00] INFO: Run List is [recipe[gitlab]]
+[2023-08-01T18:15:42+00:00] INFO: Run List expands to [gitlab]
+[2023-08-01T18:15:42+00:00] INFO: Starting Cinc Client Run for gitlab.vinz
+[2023-08-01T18:15:42+00:00] INFO: Running start handlers
+[2023-08-01T18:15:42+00:00] INFO: Start handlers complete.
+[2023-08-01T18:15:43+00:00] INFO: Loading cookbooks [gitlab@0.0.1, package@0.1.0, logrotate@0.1.0, postgresql@0.1.0, redis@0.1.0, monitoring@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.1.0, gitaly@0.1.0, praefect@0.1.0, gitlab-kas@0.1.0, gitlab-pages@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, runit@5.1.7, acme@4.1.6, crond@0.1.0]
+[2023-08-01T18:15:45+00:00] INFO: Generating default secrets
+[2023-08-01T18:15:47+00:00] INFO: Generating gitlab-secrets.json file
+[2023-08-01T18:15:47+00:00] WARN: gitlab-rails does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] INFO: Skipped selecting an init system because it was explicitly disabled
+[2023-08-01T18:15:47+00:00] WARN: gitlab-shell does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitlab-sshd does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: logrotate does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: logrotate does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: puma does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitlab-rails does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitlab-shell does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitlab-workhorse does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitlab-pages does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitlab-kas does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: gitaly does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:47+00:00] WARN: mailroom does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: gitaly does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: postgresql does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: postgresql does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: gitlab-kas does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: puma does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: sidekiq does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: gitlab-workhorse does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: gitlab-exporter does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: redis-exporter does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: prometheus does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: alertmanager does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:48+00:00] WARN: postgres-exporter does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:50+00:00] WARN: only_if block for templatesymlink[Create a gitlab_pages_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2023-08-01T18:15:50+00:00] WARN: only_if block for templatesymlink[Create a gitlab_kas_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2023-08-01T18:15:51+00:00] INFO: link[/opt/gitlab/service/logrotate] created
+[2023-08-01T18:15:51+00:00] WARN: redis does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:52+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2023-08-01T18:15:52+00:00] INFO: link[/opt/gitlab/service/gitaly] created
+[2023-08-01T18:15:54+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2023-08-01T18:15:55+00:00] INFO: link[/opt/gitlab/service/gitlab-kas] created
+[2023-08-01T18:15:55+00:00] WARN: gitlab-rails does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:55+00:00] INFO: link[/opt/gitlab/service/puma] created
+[2023-08-01T18:15:56+00:00] WARN: sidekiq does not have a log_group or default logdir mode defined. Setting to 0700.
+[2023-08-01T18:15:56+00:00] INFO: link[/opt/gitlab/service/sidekiq] created
+[2023-08-01T18:15:56+00:00] INFO: link[/opt/gitlab/service/gitlab-workhorse] created
+[2023-08-01T18:15:57+00:00] INFO: link[/opt/gitlab/service/nginx] created
+[2023-08-01T18:15:57+00:00] INFO: link[/opt/gitlab/service/gitlab-exporter] created
+[2023-08-01T18:15:57+00:00] INFO: link[/opt/gitlab/service/redis-exporter] created
+[2023-08-01T18:15:58+00:00] INFO: link[/opt/gitlab/service/prometheus] created
+[2023-08-01T18:15:58+00:00] INFO: link[/opt/gitlab/service/alertmanager] created
+[2023-08-01T18:15:58+00:00] INFO: link[/opt/gitlab/service/postgres-exporter] created
+[2023-08-01T18:15:58+00:00] INFO: Cinc Client Run complete in 16.333206834 seconds
+[2023-08-01T18:15:58+00:00] INFO: Running report handlers
+[2023-08-01T18:15:58+00:00] INFO: Report handlers complete

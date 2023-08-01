@@ -1,0 +1,27 @@
+{"level":"info","msg":"Wrapper started","pid":308,"time":"2023-07-29T20:19:53.051Z","wrapper":308}
+{"level":"info","msg":"finding process","pid":308,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-07-29T20:19:53.051Z","wrapper":308}
+{"level":"info","msg":"spawning a process","pid":308,"time":"2023-07-29T20:19:53.052Z","wrapper":308}
+{"level":"info","msg":"monitoring process","pid":308,"process":379,"time":"2023-07-29T20:19:53.058Z","wrapper":308}
+time="2023-07-29T20:19:54Z" level=info msg="Starting Gitaly, version 16.2.1"
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","time":"2023-07-29T20:19:54.020Z"}
+{"level":"info","msg":"License database preloaded","time":"2023-07-29T20:20:05.493Z"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-819","time":"2023-07-29T20:20:05.546Z"}
+{"level":"info","msg":"clearing disk cache object folder","storage":"default","time":"2023-07-29T20:20:05.979Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-07-29T20:20:05.981Z","time_ms":1}
+{"level":"info","msg":"moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache2910406099","storage":"default","time":"2023-07-29T20:20:05.981Z"}
+{"level":"info","msg":"disk cache object folder doesn't exist, no need to remove","storage":"default","time":"2023-07-29T20:20:05.981Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","time":"2023-07-29T20:20:05.981Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","time":"2023-07-29T20:20:05.982Z"}
+{"level":"info","msg":"cleared all cache object files in /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache2910406099 after 83.173µs","storage":"default","time":"2023-07-29T20:20:05.982Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2023-07-29T20:20:06.004Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-379/sock.d/intern","level":"info","msg":"listening at unix address","time":"2023-07-29T20:20:06.005Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2023-07-29T20:20:06.006Z"}
+{"level":"info","msg":"maintenance: daily scheduled","pid":379,"scheduled":"2023-07-30T12:00:00Z","time":"2023-07-29T20:20:06.006Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-07-29T21:20:05.982Z","time_ms":0}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-07-30T00:04:19.031Z","time_ms":0}
+{"level":"warning","msg":"forwarding signal","pid":308,"process":379,"signal":15,"time":"2023-07-30T00:24:09.850Z","wrapper":308}
+{"error":"received signal \"terminated\"","level":"error","msg":"Gitaly shutdown","time":"2023-07-30T00:24:09.883Z"}
+{"level":"warning","msg":"forwarding signal","pid":308,"process":379,"signal":17,"time":"2023-07-30T00:24:09.916Z","wrapper":308}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":308,"process":379,"signal":17,"time":"2023-07-30T00:24:09.916Z","wrapper":308}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":308,"time":"2023-07-30T00:24:09.916Z","wrapper":308}
+{"level":"error","msg":"wrapper for process shutting down","pid":308,"process":379,"time":"2023-07-30T00:24:10.414Z","wrapper":308}

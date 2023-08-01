@@ -1,0 +1,5 @@
+2023-07-22_21:39:12.86440 ts=2023-07-22T21:39:12.864Z caller=main.go:135 level=info msg="Listening on address" address=localhost:9187
+2023-07-22_21:39:12.86499 ts=2023-07-22T21:39:12.864Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false
+2023-07-22_21:39:12.90931 ts=2023-07-22T21:39:12.909Z caller=server.go:74 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2023-07-22_21:39:12.91487 ts=2023-07-22T21:39:12.914Z caller=postgres_exporter.go:645 level=info msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=13.11.0
+2023-07-22_21:39:12.91488 ts=2023-07-22T21:39:12.914Z caller=postgres_exporter.go:666 level=error msg="Failed to reload user queries" path=/var/opt/gitlab/postgres-exporter/queries.yaml err="open /var/opt/gitlab/postgres-exporter/queries.yaml: no such file or directory"

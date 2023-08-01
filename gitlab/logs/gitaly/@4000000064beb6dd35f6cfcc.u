@@ -1,0 +1,22 @@
+{"level":"info","msg":"Wrapper started","pid":302,"time":"2023-07-23T20:16:17.791Z","wrapper":302}
+{"level":"info","msg":"finding process","pid":302,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-07-23T20:16:17.791Z","wrapper":302}
+{"level":"info","msg":"spawning a process","pid":302,"time":"2023-07-23T20:16:17.791Z","wrapper":302}
+{"level":"info","msg":"monitoring process","pid":302,"process":357,"time":"2023-07-23T20:16:17.806Z","wrapper":302}
+time="2023-07-23T20:16:18Z" level=info msg="Starting Gitaly, version 16.1.2"
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","time":"2023-07-23T20:16:18.588Z"}
+{"level":"info","msg":"License database preloaded","time":"2023-07-23T20:16:29.881Z"}
+{"error":"list gitaly process directory: open /sys/fs/cgroup/memory/gitaly: no such file or directory","level":"error","msg":"failed to clean up memory cgroups","time":"2023-07-23T20:16:29.882Z"}
+{"error":"list gitaly process directory: open /sys/fs/cgroup/cpu/gitaly: no such file or directory","level":"error","msg":"failed to clean up cpu cgroups","time":"2023-07-23T20:16:29.882Z"}
+{"level":"info","msg":"clearing disk cache object folder","storage":"default","time":"2023-07-23T20:16:30.106Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-07-23T20:16:30.106Z","time_ms":0}
+{"level":"info","msg":"moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache2358896405","storage":"default","time":"2023-07-23T20:16:30.106Z"}
+{"level":"info","msg":"disk cache object folder doesn't exist, no need to remove","storage":"default","time":"2023-07-23T20:16:30.106Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","time":"2023-07-23T20:16:30.106Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","time":"2023-07-23T20:16:30.106Z"}
+{"level":"info","msg":"cleared all cache object files in /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache2358896405 after 81.728µs","storage":"default","time":"2023-07-23T20:16:30.107Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2023-07-23T20:16:30.127Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-357/sock.d/intern","level":"info","msg":"listening at unix address","time":"2023-07-23T20:16:30.128Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2023-07-23T20:16:30.128Z"}
+{"level":"info","msg":"maintenance: daily scheduled","pid":357,"scheduled":"2023-07-24T12:00:00Z","time":"2023-07-23T20:16:30.129Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-07-23T21:16:30.107Z","time_ms":0}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-07-23T22:16:30.108Z","time_ms":0}

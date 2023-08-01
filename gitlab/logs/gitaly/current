@@ -1,0 +1,18 @@
+{"level":"info","msg":"Wrapper started","pid":268,"time":"2023-08-01T18:15:53.893Z","wrapper":268}
+{"level":"info","msg":"finding process","pid":268,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-08-01T18:15:53.893Z","wrapper":268}
+{"level":"info","msg":"spawning a process","pid":268,"time":"2023-08-01T18:15:53.894Z","wrapper":268}
+{"level":"info","msg":"monitoring process","pid":268,"process":286,"time":"2023-08-01T18:15:53.895Z","wrapper":268}
+time="2023-08-01T18:15:54Z" level=info msg="Starting Gitaly, version 16.2.1"
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","time":"2023-08-01T18:15:54.303Z"}
+{"level":"info","msg":"License database preloaded","time":"2023-08-01T18:15:59.677Z"}
+{"level":"info","msg":"clearing disk cache object folder","storage":"default","time":"2023-08-01T18:16:00.047Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-08-01T18:16:00.049Z","time_ms":2}
+{"level":"info","msg":"moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache4018817054","storage":"default","time":"2023-08-01T18:16:00.049Z"}
+{"level":"info","msg":"disk cache object folder doesn't exist, no need to remove","storage":"default","time":"2023-08-01T18:16:00.050Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","time":"2023-08-01T18:16:00.050Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","time":"2023-08-01T18:16:00.050Z"}
+{"level":"info","msg":"cleared all cache object files in /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache4018817054 after 64.909µs","storage":"default","time":"2023-08-01T18:16:00.050Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2023-08-01T18:16:00.129Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-286/sock.d/intern","level":"info","msg":"listening at unix address","time":"2023-08-01T18:16:00.130Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2023-08-01T18:16:00.133Z"}
+{"level":"info","msg":"maintenance: daily scheduled","pid":286,"scheduled":"2023-08-02T12:00:00Z","time":"2023-08-01T18:16:00.133Z"}
