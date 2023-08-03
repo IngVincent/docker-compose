@@ -1,0 +1,14 @@
+services:
+    tailscale: 
+      container_name: tailscale 
+      hostname: tailscalehost 
+      image: tailscale/tailscale:stable 
+      volumes: 
+        - ./tailscale:/var/lib # State data will be stored in this directory 
+        - /dev/net/tun:/dev/net/tun
+      cap_add: 
+        - net_admin 
+        - sys_module 
+      command: tailscaled 
+      privileged: true 
+      restart: unless-stopped

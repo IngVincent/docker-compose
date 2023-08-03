@@ -8,3 +8,4 @@
 2023-08-01_18:16:00.45515 ts=2023-08-01T18:16:00.454Z caller=tls_config.go:235 level=info msg="TLS is disabled." http2=false address=127.0.0.1:9093
 2023-08-01_18:16:02.22584 ts=2023-08-01T18:16:02.225Z caller=cluster.go:706 level=info component=cluster msg="gossip not settled" polls=0 before=0 now=1 elapsed=2.00029065s
 2023-08-01_18:16:10.23122 ts=2023-08-01T18:16:10.231Z caller=cluster.go:698 level=info component=cluster msg="gossip settled; proceeding" elapsed=10.005702853s
+2023-08-01_20:04:07.41366 ts=2023-08-01T20:04:07.413Z caller=main.go:583 level=info msg="Received SIGTERM, exiting gracefully..."

@@ -1,0 +1,21 @@
+{"logtail": {"client_time": "2023-08-03T18:39:39.566844749Z","proc_id": 2436911434,"proc_seq": 55}, "text": "tailscaled got signal terminated; shutting down\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.56703056Z","proc_id": 2436911434,"proc_seq": 56}, "text": "control: client.Shutdown()\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567050459Z","proc_id": 2436911434,"proc_seq": 57}, "text": "control: client.Shutdown: inSendStatus=0\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567066674Z","proc_id": 2436911434,"proc_seq": 58}, "v":1,"text": "control: authRoutine: context done.\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567082481Z","proc_id": 2436911434,"proc_seq": 59}, "v":1,"text": "control: authRoutine: state:new; goal=nil paused=false\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567095458Z","proc_id": 2436911434,"proc_seq": 60}, "v":1,"text": "control: authRoutine: quit\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567117065Z","proc_id": 2436911434,"proc_seq": 61}, "v":1,"text": "control: mapRoutine: context done.\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567128598Z","proc_id": 2436911434,"proc_seq": 62}, "v":1,"text": "control: mapRoutine: state:new\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567146963Z","proc_id": 2436911434,"proc_seq": 63}, "text": "control: mapRoutine: quit\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567166009Z","proc_id": 2436911434,"proc_seq": 64}, "text": "control: Client.Shutdown done.\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567372246Z","proc_id": 2436911434,"proc_seq": 65}, "v":2,"text": "wg: Routine: receive incoming mkReceiveFunc - stopped\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.56740254Z","proc_id": 2436911434,"proc_seq": 66}, "v":2,"text": "wg: Routine: receive incoming mkReceiveFunc - stopped\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.567932267Z","proc_id": 2436911434,"proc_seq": 67}, "v":2,"text": "wg: Device closing\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.568182716Z","proc_id": 2436911434,"proc_seq": 68}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.568323398Z","proc_id": 2436911434,"proc_seq": 69}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.568448121Z","proc_id": 2436911434,"proc_seq": 70}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.568536459Z","proc_id": 2436911434,"proc_seq": 71}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.596241092Z","proc_id": 2436911434,"proc_seq": 72}, "v":2,"text": "wg: Routine: receive incoming receiveDERP - stopped\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.596285944Z","proc_id": 2436911434,"proc_seq": 73}, "v":2,"text": "wg: Device closed\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.596330278Z","proc_id": 2436911434,"proc_seq": 74}, "text": "flushing log.\n"}
+{"logtail": {"client_time": "2023-08-03T18:39:39.596354087Z","proc_id": 2436911434,"proc_seq": 75}, "text": "logger closing down\n"}
