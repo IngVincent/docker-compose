@@ -1,0 +1,28 @@
+---
+version: '3'
+services:
+  db:
+    image: mysql
+    volumes:
+      - /uvdeskdb:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: uvdesk
+      MYSQL_ROOT_PASSWORD: mysqlVinz!91
+      MYSQL_USER: uvdesk
+      MYSQL_PASSWORD:  musqlkseduv92
+  uvdesk:
+    image: dietermartens/uvdesk:latest
+    depends_on:
+      - db
+    tty: true
+    environment:
+      MYSQL_USER: uvdesk
+      MYSQL_PASSWORD: musqlkseduv92
+      MYSQL_ROOT_PASSWORD: mysqlVinz!91
+      MYSQL_DATABASE: uvdesk
+    ports:
+      - 6774:80
+
+volumes:
+  db_data: {}
