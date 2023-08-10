@@ -1,0 +1,24 @@
+{"logtail": {"client_time": "2023-08-09T22:58:02.856185724Z","proc_id": 137597691,"proc_seq": 333}, "metrics": "I0a72N48controlclient_map_response_keepaliveS26f404N3ccontrolclient_map_response_mapS0c12","text": "tailscaled got signal terminated; shutting down\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.85642113Z","proc_id": 137597691,"proc_seq": 334}, "text": "control: client.Shutdown()\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856442226Z","proc_id": 137597691,"proc_seq": 335}, "text": "control: client.Shutdown: inSendStatus=0\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.85645853Z","proc_id": 137597691,"proc_seq": 336}, "v":1,"text": "control: authRoutine: context done.\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856477186Z","proc_id": 137597691,"proc_seq": 337}, "v":1,"text": "control: authRoutine: state:synchronized; goal=nil paused=false\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856490603Z","proc_id": 137597691,"proc_seq": 338}, "v":1,"text": "control: authRoutine: quit\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856692189Z","proc_id": 137597691,"proc_seq": 339}, "v":1,"text": "control: PollNetMap: context canceled\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856710822Z","proc_id": 137597691,"proc_seq": 340}, "v":1,"text": "control: mapRoutine: state:authenticated\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856727726Z","proc_id": 137597691,"proc_seq": 341}, "text": "control: mapRoutine: quit\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856853537Z","proc_id": 137597691,"proc_seq": 342}, "text": "control: Client.Shutdown done.\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856906936Z","proc_id": 137597691,"proc_seq": 343}, "text": "magicsock: closing connection to derp-9 (conn-close), age 1h50m3s\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.856937033Z","proc_id": 137597691,"proc_seq": 344}, "text": "magicsock: 0 active derp conns\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.85714356Z","proc_id": 137597691,"proc_seq": 345}, "v":2,"text": "wg: Routine: receive incoming mkReceiveFunc - stopped\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.857204575Z","proc_id": 137597691,"proc_seq": 346}, "v":2,"text": "wg: Routine: receive incoming mkReceiveFunc - stopped\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.858224212Z","proc_id": 137597691,"proc_seq": 347}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.858315349Z","proc_id": 137597691,"proc_seq": 348}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.858376984Z","proc_id": 137597691,"proc_seq": 349}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.858453717Z","proc_id": 137597691,"proc_seq": 350}, "text": "monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.876254248Z","proc_id": 137597691,"proc_seq": 351}, "v":2,"text": "wg: Device closing\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.876497697Z","proc_id": 137597691,"proc_seq": 352}, "v":1,"text": "monitor: RTM_DELROUTE: src=100.84.72.37/0, dst=100.84.72.37/32, gw=, outif=2, table=255\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.907482754Z","proc_id": 137597691,"proc_seq": 353}, "v":2,"text": "wg: Routine: receive incoming receiveDERP - stopped\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.907545097Z","proc_id": 137597691,"proc_seq": 354}, "v":2,"text": "wg: Device closed\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.907597439Z","proc_id": 137597691,"proc_seq": 355}, "text": "flushing log.\n"}
+{"logtail": {"client_time": "2023-08-09T22:58:02.907621406Z","proc_id": 137597691,"proc_seq": 356}, "text": "logger closing down\n"}
