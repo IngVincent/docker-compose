@@ -23,7 +23,7 @@ services:
   gitlab-runner:
     image: gitlab/gitlab-runner:alpine
     container_name: gitlab-runner    
-    restart: always
+   #restart: always
     depends_on:
       - web
     volumes:

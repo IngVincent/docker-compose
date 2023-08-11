@@ -1,0 +1,3 @@
+[10/Aug/2023:21:15:19 +0000] 200 - GET http 192.168.100.6 "/" [Client 192.168.100.6] [Length 568] [Gzip 1.86] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" "-"
+[10/Aug/2023:21:15:20 +0000] 400 - GET http 192.168.100.6 "/favicon.ico" [Client 127.0.0.1] [Length 230] [Gzip -] "-" "-"
+[10/Aug/2023:21:38:19 +0000] 200 - GET http vinz-home-lab.duckdns.org "/" [Client 172.26.0.1] [Length 568] [Gzip 1.86] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" "-"
